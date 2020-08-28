@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Titulo</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/icono.png' %}" rel="icon">
+  <link href="{% static 'img/icono-apple.png' %}" rel="apple-touch-icon">
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div>
+
+      <div id="logo">
+        <h1><a href="#intro">Titulo</a></h1>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="../../#intro">Inicio</a></li>
+          <li><a href="../../#services">Servicios</a></li>
+          <li><a href="../../#about">¿Quienes Somos?</a></li>
+          <li><a href="../../pregunta/#cita">Solicitar Cita</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  {% block content %}
+
+  {% endblock %}
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Titulo</h3>
+            <p>“Frase emotiva o lo que sea de lo que se refiera esto”</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Enlaces Útiles</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="../../#intro">Inicio</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="../../#about">¿Quienes Somos?</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="../../#services">Servicios</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="../../politica-de-privacidad/#about">Política de Privacidad</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Contáctanos</h4>
+            <p>
+              Urb. Chilemex <br>
+              Calle Aruba, Ciudad Guayana 8050<br>
+              Bolívar <br>
+              <strong>Tel:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> titulo@gmail.com<br>
+            </p>
+
+            <div>
+              <a href="https://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://accounts.google.com/" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="https://www.linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div>
+            <h4>Horario de Apertura</h4>
+            <p>7:00 AM - 10:00 PM <br>Lunes - Sábado <br><br> 10:00 AM - 6:00 PM <br> Domingo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="copyright">
+        &copy; Copyright <strong>Titulo</strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+</body>
+</html>
